@@ -25,7 +25,8 @@ This project is a terminal-based chatbot that queries a Neo4J database to answer
 
 
 
-3. config .env to include the following please modify the OPENAI_API_KEY to your API KEY
+3. add an  ```.env``` in the root directory and add following keys 
+into the ```.env``` file,  please modify the OPENAI_API_KEY to your API KEY
    ```bash
     NEO4J_URI=bolt://3.88.130.123:7687
     NEO4J_USER=neo4j
@@ -34,7 +35,7 @@ This project is a terminal-based chatbot that queries a Neo4J database to answer
     MOVIE_AGENT_MODEL=gpt-3.5-turbo-0125
     OPENAI_API_KEY=YOUR_API_KEY
 
-4. Run python main.py to start terminal conversations for every message it will have 5 seconds time out for feedback
+4. Run ```python main.py``` to start terminal conversations for every message it will have 5 seconds time out for feedback
 
-5. Run python test/test_memory.py for test cases
+5. Run python ```test/test_memory.py``` for test cases
 
