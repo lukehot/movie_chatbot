@@ -20,10 +20,7 @@ This project is a terminal-based chatbot that queries a Neo4J database to answer
    ```bash
    python3 -m venv chatbot_env
    source chatbot_env/bin/activate  # On Windows use `chatbot_env\Scripts\activate`
-
    pip install -r requirements.txt
-
-
 
 3. add an  ```.env``` in the root directory and add following keys 
 into the ```.env``` file,  please modify the OPENAI_API_KEY to your API KEY
@@ -37,5 +34,5 @@ into the ```.env``` file,  please modify the OPENAI_API_KEY to your API KEY
 
 4. Run ```python main.py``` to start terminal conversations for every message it will have 5 seconds time out for feedback
 
-5. Run python ```test/test_memory.py``` for test cases
+5. Run ```python test/test_memory.py``` for test cases 
 
