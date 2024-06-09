@@ -3,13 +3,13 @@ from chatbot.bot import TerminalChatBot
 bot = TerminalChatBot()
 
 user_inputs = [
-    "I like Tom Hanks movies ~~~~~ ",
+    "I like Tom Hanks movies list movies he was in order them by year desecding ",
     " what type of movie I like given previous chat?",
     " Who directed the movie 'Cloud Atlas' ", 
 ]
 
 expected_responses = [
-    "Tom Hanks",
+    "Cloud Atlas",
     "Tom Hanks",
     "Lilly Wachowski",  
 ]
