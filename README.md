@@ -13,7 +13,7 @@ This project is a terminal-based chatbot that queries a Neo4J database to answer
 
 1. Clone the repository:
    ```bash
-   git clone [<repository_url>](https://github.com/lukehot/movie_chatbot.git)
+   git clone https://github.com/lukehot/movie_chatbot.git
    cd movie_chatbot
 
 2. Install the dependencies
